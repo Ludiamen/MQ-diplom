@@ -79,6 +79,10 @@ div.hidden {
   font-size: 13px;
 }
 
+.field {
+  appearance: none;
+}
+
 .radio-button {
   position: absolute;
   width: 1px;
@@ -117,6 +121,7 @@ select.field {
 
 textarea.field {
   min-height: 131px;
+  max-height: 131px;
   min-width: 100%;
   max-width: 100%;
   padding: 17px;
@@ -307,6 +312,9 @@ textarea.field {
   text-decoration: none;
   text-transform: uppercase;
 }
+.news-teg-link:hover {
+  text-decoration: underline;
+}
 
 .news-img {
   min-width: 380px;
@@ -482,6 +490,10 @@ textarea.field {
   font-weight: bold;
 }
 
+.teg-list-item:hover {
+  border-color: #b59f5b;
+}
+
 .teg-link {
   color: #0f0d0e;
   text-decoration: none;
@@ -505,6 +517,10 @@ textarea.field {
   color: #0f0d0e;
   text-decoration: none;
 }
+
+  .topics-link:hover {
+    color: #b59f5b;
+  }
 
 .topic-marker {
   position: relative;
